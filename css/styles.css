@@ -1,0 +1,199 @@
+*{
+    font-family: sans-serif;
+}
+
+.editTopIcons{
+    background-color: lightgrey;
+    height: 52px;
+}
+
+.editIcon, .editMainMenu ul li a, .editQuemSomos{
+    color: #5271A3;
+}
+
+.iconInfos{
+    font-size: 16px;
+    padding: 0 100px 0 7px;
+    font-weight: 550;
+}
+
+.socialIcons{
+    float: right;
+    padding: 0 20px 0 0;
+}
+
+.editMainMenu{
+    justify-content: end;
+}
+
+.editMainMenu ul li{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 0 0 18px;
+}
+
+.editMainMenu ul li:first-child, .editMainMenu ul li:last-child{
+    font-weight: 600;
+}
+
+.editQuemSomos h1, .editQuemSomos p, .editConfira h1, .editConfira p, .editConosco h1, .editConosco p, .editContact h1{
+    text-align: center;
+}
+
+.editQuemSomos p, .editConfira p, .editConosco p{
+    padding: 10px 0 0 0;
+}
+
+.editPcq h1{
+    font-size: 23px;
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
+.editPcq p{
+    text-align: left;
+    font-size: 15px;
+}
+
+.editPcqIcons{
+    float: left;
+    color: #0DFCB1;
+}
+
+.editConfira{
+    padding: 20px 0 0 0;
+}
+
+.editConfira h1, .editConfira p, .editConosco h1, .editConosco p, .editContact h1{
+    color: #3A4F94;
+}
+
+.editPort{
+    height: 185;;
+    width: 270px;
+}
+
+.editPortRow{
+    padding: 55px 0 0 0;
+}
+
+.editConosco{
+    padding: 200px 0 180px 0;
+}
+
+.contactPad{
+    padding: 0 0 95px 0;
+}
+
+.editForm{
+    text-align: end;
+}
+
+.editForm input, .editForm textarea{
+    width: 645px;
+    padding: 7px 0 0 0;
+    background-color: #787878;
+}
+
+.editForm textarea{
+    height: 200px;
+    resize: none;
+    border-style: inset;
+}
+
+.editForm input[type=submit]{
+    width: 100px;
+    margin-right: 197px;
+    background-color: #00A085;
+    text-transform: uppercase;
+}
+
+.editForm input::placeholder, .editForm textarea::placeholder, .editForm input[type=submit]{
+    color: white;
+    font-size: 19px;
+    padding: 5px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.editMapSize{
+    text-align: left;
+}
+
+footer{
+    background-color:  #3a546f;
+}
+
+footer p{
+    margin-top: 80px;
+    color: lightgrey;
+    font-size: 13px;
+}
+
+.editPortFooter{
+    margin-top: 145px;
+}
+
+.editMarginCont{
+    padding: 0 0 50px 0;
+}
+
+.editFooterContact h1{
+    font-size: 19px;
+    margin-top: 90px;
+    color: white;
+}
+
+.editFooterContact p{
+    margin-top: 30px;
+}
+
+.editFooterContact i {
+    color: lightgrey;
+    font-weight: 550;
+    opacity: 80%;
+}
+
+.editFooterContact label{
+    padding: 0 0 0 10px;
+    font-size: 13px;
+}
+
+.editEmailInput{
+    background: #7C858A;
+    border-style: none;
+}
+
+.editEmailInput::placeholder{
+    color: #fff;
+    opacity: 50%;
+}
+
+.editEmailBotton{
+    background-color: #00A085;
+    color: #fff;
+    font-weight: 650;
+    font-size: 15px;
+}
+
+.editFooterCredits{
+    background-color: #2C3F54;
+}
+
+.editFooterCredits p{
+    margin-top: 20px;
+    color: lightgrey;
+    opacity: 60%;
+    font-weight: 600;
+}
+
+footer .navbar{
+    float: right;
+}
+
+footer .navbar a{
+    color: lightgrey;
+    opacity: 60%;
+    font-weight: 600;
+    font-size: 13px;
+}
